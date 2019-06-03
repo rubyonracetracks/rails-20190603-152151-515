@@ -5,6 +5,7 @@
 [![codecov](https://codecov.io/gh/rubyonracetracks/rails-20190603-152151-515/branch/master/graph/badge.svg)](https://codecov.io/gh/rubyonracetracks/rails-20190603-152151-515)
 [![security](https://hakiri.io/github/rubyonracetracks/rails-20190603-152151-515/master.svg)](https://hakiri.io/github/rubyonracetracks/rails-20190603-152151-515/master)
 [![Maintainability](https://api.codeclimate.com/v1/badges/7fe768fd4dc6a2bf2b50/maintainability)](https://codeclimate.com/github/rubyonracetracks/rails-20190603-152151-515/maintainability)
+[![codebeat badge](https://codebeat.co/badges/584ddb87-fe69-40d0-bb94-b166e1e6514f)](https://codebeat.co/projects/github-com-rubyonracetracks-rails-20190603-152151-515-master)
 <!--- END: badges --->
 
 Welcome to Generic App Template!
