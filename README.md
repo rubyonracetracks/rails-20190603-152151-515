@@ -4,6 +4,7 @@
 [![Build Status](https://travis-ci.org/rubyonracetracks/rails-20190603-152151-515.svg?branch=master)](https://travis-ci.org/rubyonracetracks/rails-20190603-152151-515)
 [![codecov](https://codecov.io/gh/rubyonracetracks/rails-20190603-152151-515/branch/master/graph/badge.svg)](https://codecov.io/gh/rubyonracetracks/rails-20190603-152151-515)
 [![security](https://hakiri.io/github/rubyonracetracks/rails-20190603-152151-515/master.svg)](https://hakiri.io/github/rubyonracetracks/rails-20190603-152151-515/master)
+[![Maintainability](https://api.codeclimate.com/v1/badges/7fe768fd4dc6a2bf2b50/maintainability)](https://codeclimate.com/github/rubyonracetracks/rails-20190603-152151-515/maintainability)
 <!--- END: badges --->
 
 Welcome to Generic App Template!
