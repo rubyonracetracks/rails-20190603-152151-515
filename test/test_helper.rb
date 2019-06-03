@@ -11,13 +11,23 @@ SimpleCov.start :rails do
 end
 # END: SimpleCov
 
+# BEGIN: Codecov
+# Run Codecov ONLY in continuous integration.
+# Running Codecov suppresses the display of the test coverage percentage
+# in the terminal screen output.
+if ENV.include? 'CODECOV_TOKEN'
+  require 'codecov'
+  SimpleCov.formatter = SimpleCov::Formatter::Codecov
+end
+# END: Codecov
+
 ENV['RAILS_ENV'] ||= 'test'
 require_relative '../config/environment'
 require 'rails/test_help'
 
 # BEGIN: use minitest-reporters
-# NOTE: Minitest Reporters is incompatible with GitLab CI.
-if ENV['GITLAB_CI'].nil?
+# NOTE: Minitest Reporters is incompatible with GitLab CI and Codecov.
+if ENV['GITLAB_CI'].nil? && ENV['CODECOV_TOKEN'].nil?
   require 'minitest/reporters'
   require 'rake_rerun_reporter'
   Minitest::Reporters.use!
