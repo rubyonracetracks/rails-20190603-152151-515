@@ -126,3 +126,6 @@ mod_app.sh
 
 gemsurance_report.html
 test/html_reports/
+
+# Keep SimpleCov test results out of the source code
+coverage
